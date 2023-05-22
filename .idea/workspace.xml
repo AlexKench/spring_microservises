@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e7d51b-5eac-4978-ba11-9ba4ee202ab5" name="Changes" comment="connect eureka-server">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/alexandr/maksimov/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/alexandr/maksimov/eurekaclient/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/alexandr/maksimov/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+    <list default="true" id="01e7d51b-5eac-4978-ba11-9ba4ee202ab5" name="Changes" comment="connect eureka-client and api-gateway">
+      <change afterPath="$PROJECT_DIR$/api-gateaway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/src/main/java/com/alexandr/maksimov/apigateaway/ApiGateawayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateaway/src/test/java/com/alexandr/maksimov/apigateaway/ApiGateawayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-gateaway" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +73,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Q9zgjJwkwepMg0ivhQHhGZSdGc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,9 +95,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "spring.configuration.checksum": "82707b8d26170bb76bba1984f59cffc5",
     "vue.rearranger.settings.migration": "true"
   }
@@ -108,16 +110,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="api-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexandr.maksimov.apigateway.ApiGatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alexandr.maksimov.apigateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.ApiGateawayApplication">
+    <configuration name="ApiGateawayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateaway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexandr.maksimov.apigateaway.ApiGateawayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +139,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApiGateawayApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
@@ -163,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684780700196</updated>
       <workItem from="1684780701530" duration="3818000" />
-      <workItem from="1684784992179" duration="2536000" />
+      <workItem from="1684784992179" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1684780753755</created>
@@ -179,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684783508449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="connect eureka-client and api-gateway">
+      <created>1684791835079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684791835080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,8 +199,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new project" />
     <MESSAGE value="connect eureka-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect eureka-server" />
+    <MESSAGE value="connect eureka-client and api-gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect eureka-client and api-gateway" />
   </component>
 </project>
